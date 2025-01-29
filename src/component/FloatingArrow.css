@@ -1,0 +1,32 @@
+/* FloatingArrow.css */
+.floating-arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.floating-arrow.visible {
+  display: flex;
+  background-color: #5e3f68c5;
+  color: white;
+}
+
+.floating-arrow:hover {
+  background-color: #f55275c0;
+}
+
+@media screen and (min-width: 1024px) {
+  .floating-arrow {
+    bottom: 30vh;
+    right: 50px;
+  }
+}

@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Jost", "Poppins";
+}
+a {
+  text-decoration: none;
+  color: #5e3f68;
+}
+#root {
+  width: 100%;
+}
